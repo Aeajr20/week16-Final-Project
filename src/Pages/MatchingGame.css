@@ -1,0 +1,156 @@
+/* Body styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://wallpapers.com/images/hd/rick-and-morty-in-a-colorful-planet-zh6hjd4zrielptni.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: auto; /* or overflow: visible; */
+    display: flex;
+    flex-direction: column;}
+/* Container styles */
+
+
+
+.nav-link{color: rgb(46, 218, 3);
+font-size: x-large;}
+
+.Container {
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh; /* Adjust to fit your design */
+  }
+  
+
+
+  /* Game board styles */
+  .game-board {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #5faa185d;
+    color: rgb(255, 251, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  /* Card styles */
+  .card {
+    width: 145px; /* Adjust card size as needed */
+    height: 240px; /* Adjust card size as needed */
+    margin: 10px auto; /* Auto margins horizontally center the card */
+    perspective: 1000px;
+    cursor: pointer;
+  }
+  
+  .card .card-front,
+  .card .card-back {color: rgba(12, 12, 9, 0.466); background-color:rgba(231, 231, 63, 0.5);
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+  }
+  
+  .card .card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    background-color:  #1d175254; /* Fallback color */
+    color: #1d175257;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+  }
+  
+  .card.flipped .card-front {
+    transform: rotateY(180deg);
+  }
+  
+  .card.flipped .card-back {
+    transform: rotateY(0deg);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Score display styles */
+  .score {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+/* TriviaGame.css */
+
+.Trivia {
+    color: rgb(184, 5, 219);
+    font-size: 60px;
+    margin-top: 90px;
+    text-align: center;
+  }
+  
+
+  .questions{
+
+    font-size: larger;
+    font-weight: bolder;
+    background-color: black;
+    color: rgb(184, 5, 219);
+    width: 35%;
+  }
+ .h2{
+    font-size: x-large;
+
+    background-color: black;
+    color: rgb(184, 5, 219);
+}
+
+/* TriviaGame.css */
+
+/* Styling for the overall trivia game */
+.TriviaGame {
+    color: rgb(184, 5, 219);
+    font-size: 60px;
+    margin-top: 90px;
+    text-align: center;
+  }
+  
+  /* Styling for the questions */
+  .Question {
+    font-size: larger;
+    font-weight: bold;
+    background-color: black; /* Set background color to black */
+    color: rgb(184, 5, 219); /* Set text color */
+    width: 35%;
+  }
+  
+  /* Additional styles for specific elements (optional) */
+  .Options {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Options li {
+    margin-bottom: 5px;
+ background-color: black;
+}
+  
+
+  
+  
+
+  
