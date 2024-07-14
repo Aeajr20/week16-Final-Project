@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 
 const LoginForm = () => {
+  // State variables to store the username and password
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
+  // Function to handle form submission
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Prevent the default form submission behavior
     // Handle form submission logic (e.g., authentication)
     console.log('Username:', username);
     console.log('Password:', password);
@@ -20,6 +22,7 @@ const LoginForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
+      {/* Username input field */}
       <div className="form-group">
         <label htmlFor="username">Username:</label>
         <input
@@ -32,6 +35,7 @@ const LoginForm = () => {
           required
         />
       </div>
+      {/* Password input field */}
       <div className="form-group">
         <label htmlFor="password">Password:</label>
         <input
@@ -44,6 +48,7 @@ const LoginForm = () => {
           required
         />
       </div>
+      {/* Submit button */}
       <button type="submit" className="btn btn-primary">Login</button>
     </form>
   );

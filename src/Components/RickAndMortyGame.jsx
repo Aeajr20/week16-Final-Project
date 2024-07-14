@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-
-
+// Function to shuffle an array randomly
 const shuffleArray = (array) => {
   return array.sort(() => Math.random() - 0.5);
 };
 
+// Function to fetch characters from the Rick and Morty API
 const fetchCharacters = async () => {
   try {
     const response = await fetch('https://rickandmortyapi.com/api/character/');
@@ -21,13 +21,20 @@ const fetchCharacters = async () => {
   }
 };
 
+// Card component representing each character card
+// It accepts three props: 'character', 'onClick', and 'isFlipped'.
+// 'character' is the character data.
+// 'onClick' is a function that will be called when the card is clicked.
+// 'isFlipped' is a boolean indicating whether the card is flipped.
 const Card = ({ character, onClick, isFlipped }) => {
   return (
     <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={onClick}>
       <div className="card-front">
         {isFlipped ? (
+          // If the card is flipped, display the character image
           <img src={character.image} alt={character.name} />
         ) : (
+          // If the card is not flipped, display a placeholder
           <div className="card-back">Click to flip</div>
         )}
       </div>
@@ -35,12 +42,15 @@ const Card = ({ character, onClick, isFlipped }) => {
   );
 };
 
+// Main component for the Rick and Morty matching game
 const RickAndMortyGame = () => {
+  // State to store characters, flipped cards, matched cards, and score
   const [characters, setCharacters] = useState([]);
   const [flippedCards, setFlippedCards] = useState([]);
   const [matchedCards, setMatchedCards] = useState([]);
   const [score, setScore] = useState(0);
 
+  // useEffect to initialize the game by fetching characters and setting up the game board
   useEffect(() => {
     const initializeGame = async () => {
       let chars = await fetchCharacters();
@@ -51,6 +61,7 @@ const RickAndMortyGame = () => {
     initializeGame();
   }, []);
 
+  // Function to handle card click events
   const handleCardClick = (index) => {
     if (flippedCards.length === 2 || flippedCards.includes(index)) return;
 
@@ -64,12 +75,14 @@ const RickAndMortyGame = () => {
         setScore(score + 1); // Increase score when cards match
       }
 
+      // Reset flipped cards after 1 second
       setTimeout(() => {
         setFlippedCards([]);
       }, 1000);
     }
   };
 
+  // Render the component
   return (
     <Container className="Container">
       <h3 className="mt-4 mb-3">Matching Game</h3>
@@ -91,4 +104,5 @@ const RickAndMortyGame = () => {
   );
 };
 
+// Export the RickAndMortyGame component, so it can be imported and used in other files.
 export default RickAndMortyGame;

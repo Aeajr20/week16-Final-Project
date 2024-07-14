@@ -1,10 +1,19 @@
-// import React from 'react';
+import React from 'react';
 
-// const Result = ({ gameOver, currentPlayer, onRestart, grid }) => (
-//   <div id="gameResult" className={gameOver ? '' : 'd-none'}>
-//     {gameOver && (grid.every(cell => cell !== '') ? 'It\'s a Draw!' : `Player ${currentPlayer} Wins!`)}
-//     <button id="restartButton" onClick={onRestart}>Restart Game</button>
-//   </div>
-// );
+// The Result component represents the result of a game.
+// It accepts three props: 'gameOver', 'message', and 'onRestart'.
+// 'gameOver' is a boolean indicating whether the game is over.
+// 'message' is the text to display when the game is over.
+// 'onRestart' is a function that will be called when the restart button is clicked.
 
-// export default Result;
+const Result = ({ gameOver, message, onRestart }) => (
+  <div id="gameResult" style={{ display: gameOver ? 'block' : 'none' }}>
+    {/* Display the game over message */}
+    {message}
+    {/* Display a restart button. When this button is clicked, the onRestart function is called. */}
+    <button id="restartButton" onClick={onRestart}>Restart Game</button>
+  </div>
+);
+
+// Export the Result component, so it can be imported and used in other files.
+export default Result;

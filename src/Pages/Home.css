@@ -1,4 +1,12 @@
-body{color: green;
+body{color: rgb(0, 0, 0);
 background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eBvjYRt7kOaE2UPthLWxxIMu0NRJtWijqg&s') ;
 
+}
+
+#HomeP{
+    color: rgb(9, 255, 243);
+    background-color:rgba(0, 0, 0, .01) ;
+    font-weight: bolder;
+    font-size: x-large;
+    
 }

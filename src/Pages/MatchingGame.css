@@ -98,6 +98,7 @@ font-size: x-large;}
 
 .Trivia {
     color: rgb(184, 5, 219);
+    background-color: rgba(0, 0, 0, 0.637);
     font-size: 60px;
     margin-top: 90px;
     text-align: center;
@@ -108,47 +109,66 @@ font-size: x-large;}
 
     font-size: larger;
     font-weight: bolder;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     color: rgb(184, 5, 219);
     width: 35%;
   }
- .h2{
-    font-size: x-large;
 
-    background-color: black;
-    color: rgb(184, 5, 219);
+
+
+ #Catchphrase{
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.568);
+    color: rgb(183, 5, 219);
 }
 
-/* TriviaGame.css */
 
-/* Styling for the overall trivia game */
+#ReviewMode{
+    font-size: x-large;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: rgb(183, 5, 219);
+}
+
+h2{
+    background-color: rgba(0, 0, 0, 0.705); /* Set background color to black */
+    color: rgb(184, 5, 219); /* Set text color */
+
+}
+
+
+.ReviewAnswers{
+    background-color: rgba(0, 0, 0, 0.781); /* Set background color to black */
+    color: rgb(184, 5, 219); /* Set text color */
+}
+
 .TriviaGame {
-    color: rgb(184, 5, 219);
+    color: rgb(94, 3, 112);
+    background-color: rgba(0, 0, 0, 0.61);
     font-size: 60px;
     margin-top: 90px;
     text-align: center;
   }
   
   /* Styling for the questions */
-  .Question {
+  #Questions {
     font-size: larger;
     font-weight: bold;
-    background-color: black; /* Set background color to black */
+    background-color: rgba(0, 0, 0, 0.637); /* Set background color to black */
     color: rgb(184, 5, 219); /* Set text color */
-    width: 35%;
+    width: 80%;
+    margin: auto;
   }
   
-  /* Additional styles for specific elements (optional) */
-  .Options {
-    list-style-type: none;
-    padding: 0;
+ul{
+    background-color: hsla(0, 0%, 0%, 0.568); /* Set background color to black */
+    color: rgb(184, 5, 219); /* Set text color */
+}  
+
+  li{
+    color: rgb(212, 0, 255); /* Set text color */
+background-color: rgba(0, 0, 0, 0.);
+font-size: x-large;
   }
-  
-  .Options li {
-    margin-bottom: 5px;
- background-color: black;
-}
-  
 
   
   

@@ -1,0 +1,178 @@
+[
+    {
+      "id": 1,
+      "fullName": "Rick Sanchez",
+      "characterTrait": "Genius, alcoholic, cynical",
+      "origin": "Earth (Dimension C-137)",
+      "favoriteCatchphrase": "Wubba lubba dub dub!"
+    },
+    {
+      "id": 2,
+      "fullName": "Morty Smith",
+      "characterTrait": "Timid, nervous, loyal",
+      "origin": "Earth (Dimension C-137)",
+      "favoriteCatchphrase": "Aw jeez, Rick!"
+    },
+    {
+      "id": 3,
+      "fullName": "Summer Smith",
+      "characterTrait": "Confident, adventurous",
+      "origin": "Earth (Dimension C-137)",
+      "favoriteCatchphrase": "It's summer somewhere!"
+    },
+    {
+      "id": 4,
+      "fullName": "Jerry Smith",
+      "characterTrait": "Insecure, naive, clumsy",
+      "origin": "Earth (Dimension C-137)",
+      "favoriteCatchphrase": "I'm Mr. Meeseeks, look at me!"
+    },
+    {
+      "id": 5,
+      "fullName": "Beth Smith",
+      "characterTrait": "Independent, intelligent, strong-willed",
+      "origin": "Earth (Dimension C-137)",
+      "favoriteCatchphrase": "Honey, can you fix this?"
+    },
+    {
+      "id": 6,
+      "fullName": "Birdperson",
+      "characterTrait": "Noble, wise, skilled warrior",
+      "origin": "Bird World",
+      "favoriteCatchphrase": "May you find your truth"
+    },
+    {
+      "id": 7,
+      "fullName": "Squanchy",
+      "characterTrait": "Wild, loyal, unpredictable",
+      "origin": "Squanch Planet",
+      "favoriteCatchphrase": "Squanch you!"
+    },
+    {
+      "id": 8,
+      "fullName": "Mr. Meeseeks",
+      "characterTrait": "Eager-to-please, short-lived",
+      "origin": "Box",
+      "favoriteCatchphrase": "I'm Mr. Meeseeks, look at me!"
+    },
+    {
+      "id": 9,
+      "fullName": "Unity",
+      "characterTrait": "Hive mind, manipulative, powerful",
+      "origin": "Beta-Seven",
+      "favoriteCatchphrase": "I am many and one."
+    },
+    {
+      "id": 10,
+      "fullName": "Evil Morty",
+      "characterTrait": "Intelligent, manipulative, ruthless",
+      "origin": "Unknown",
+      "favoriteCatchphrase": "You think you're safe? You're not."
+    },
+    {
+      "id": 11,
+      "fullName": "Snowball (Snuffles)",
+      "characterTrait": "Intelligent, ambitious, vengeful",
+      "origin": "Earth (Dimension C-137)",
+      "favoriteCatchphrase": "Where are my testicles, Summer?"
+    },
+    {
+      "id": 12,
+      "fullName": "Scary Terry",
+      "characterTrait": "Fearful, insecure, misunderstood",
+      "origin": "Dream World",
+      "favoriteCatchphrase": "You can run, but you can't hide, bitch!"
+    },
+    {
+      "id": 13,
+      "fullName": "Abradolf Lincler",
+      "characterTrait": "Conflicted, philosophical, determined",
+      "origin": "Unknown",
+      "favoriteCatchphrase": "I shall now be known as Abradolf Lincler!"
+    },
+    {
+      "id": 14,
+      "fullName": "Pickle Rick",
+      "characterTrait": "Resourceful, cunning, sarcastic",
+      "origin": "Laboratory",
+      "favoriteCatchphrase": "I'm Pickle Rick!"
+    },
+    {
+      "id": 15,
+      "fullName": "Beth Clone",
+      "characterTrait": "Independent, intelligent, existential",
+      "origin": "Laboratory",
+      "favoriteCatchphrase": "I don't know what I am, Dad!"
+    },
+    {
+      "id": 16,
+      "fullName": "Noob Noob",
+      "characterTrait": "Hardworking, supportive, overlooked",
+      "origin": "Unknown",
+      "favoriteCatchphrase": "Noob Noob's on the scene!"
+    },
+    {
+      "id": 17,
+      "fullName": "Phoenixperson",
+      "characterTrait": "Resilient, vengeful, conflicted",
+      "origin": "Unknown",
+      "favoriteCatchphrase": "..."
+    },
+    {
+      "id": 18,
+      "fullName": "Hemorrhage",
+      "characterTrait": "Fierce, leader, warrior",
+      "origin": "Unknown",
+      "favoriteCatchphrase": "Freedom through blood!"
+    },
+    {
+      "id": 19,
+      "fullName": "Tammy Guetermann",
+      "characterTrait": "Deceptive, cunning, agent",
+      "origin": "Earth (Dimension C-137)",
+      "favoriteCatchphrase": "You guys are my best friends."
+    },
+    {
+      "id": 20,
+      "fullName": "Abradolf Lincler",
+      "characterTrait": "Conflicted, philosophical, determined",
+      "origin": "Unknown",
+      "favoriteCatchphrase": "I shall now be known as Abradolf Lincler!"
+    },
+    {
+      "id": 21,
+      "fullName": "Jessica",
+      "characterTrait": "Kind, intelligent, romantic",
+      "origin": "Earth (Dimension C-137)",
+      "favoriteCatchphrase": "Hey, Morty."
+    },
+    {
+      "id": 22,
+      "fullName": "Gazorpazorpfield",
+      "characterTrait": "Cynical, sarcastic, existential",
+      "origin": "Gazorpazorp",
+      "favoriteCatchphrase": "I'm Gazorpazorp-f***ing-field, bitch!"
+    },
+    {
+      "id": 23,
+      "fullName": "Mr. Poopybutthole",
+      "characterTrait": "Cheerful, optimistic, resilient",
+      "origin": "Earth (Dimension C-137)",
+      "favoriteCatchphrase": "Ooh wee!"
+    },
+    {
+      "id": 24,
+      "fullName": "Fart",
+      "characterTrait": "Telepathic, existential, gas-based lifeform",
+      "origin": "Unknown",
+      "favoriteCatchphrase": "I am Fart."
+    },
+    {
+      "id": 25,
+      "fullName": "Krombopulos Michael",
+      "characterTrait": "Assassin, professional, thrill-seeker",
+      "origin": "Unknown",
+      "favoriteCatchphrase": "Here I go killing again!"
+    }
+  ]
+  
