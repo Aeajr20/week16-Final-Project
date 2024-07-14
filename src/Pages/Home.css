@@ -1,5 +1,4 @@
 body{color: rgb(0, 0, 0);
-background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eBvjYRt7kOaE2UPthLWxxIMu0NRJtWijqg&s') ;
 
 }
 
@@ -9,4 +8,13 @@ background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5eB
     font-weight: bolder;
     font-size: x-large;
     
+}
+
+
+.character-display{color: rgb(204, 0, 255);
+font-size: 35px;
+text-align: center;
+margin-top: 5%;
+font-weight: bolder;
+background-color: rgba(0, 0, 0, 0.822);
 }
